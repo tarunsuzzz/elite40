@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container .content > p:first-child{
+    color:yellow;    /only first line will be coloured/
+}
+
+
+.container .content p{
+    color:red;   /all lines will be coloured red/
+}
+
+.container .content > p{
+    color:blue;    /* first level/class will be coloured*/
+}
+
+
+
+.container .content > p:last-child{
+    color:brown;
+}
+
+
+
+.container .content  + p{
+    color:aqua;         /* First child only*/
+}
+
+.container .content ~ p{
+    color:blueviolet;  /All adjacent element will be colored having p tag/
+}
+
+
+.container p{
+    color:red;
+}
